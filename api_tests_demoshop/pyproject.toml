@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "api-tests-demoshop"
+version = "0.1.0"
+description = "tests for api in webshop"
+authors = ["imak749 <ivan.makarov199716@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_tests_demoshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+pytest = "^7.2.0"
+voluptuous = "^0.13.1"
+wf-voluptuous = "^0.0.0"
+webdriver-manager = "^3.8.4"
+selene = "^1.0.2"
+allure-pytest = "^2.11.1"
+packaging = "^21.3"
+allure-python-commons = "^2.11.1"
+allure-pytest-bdd = "^2.11.1"
+curlify = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
